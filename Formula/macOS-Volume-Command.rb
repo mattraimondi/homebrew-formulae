@@ -1,4 +1,4 @@
-class MacOSVolumeCommand < Formula
+class MacosVolumeCommand < Formula
   homepage 'https://github.com/mattraimondi/macOS-Volume-Command'
   url 'https://github.com/mattraimondi/macOS-Volume-Command/releases/download/4.0/volume'
   version "4.0"
