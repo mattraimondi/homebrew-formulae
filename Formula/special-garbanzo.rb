@@ -1,14 +1,14 @@
 class SpecialGarbanzo < Formula
   homepage 'https://github.com/mattraimondi/special-garbanzo'
-  url 'https://github.com/mattraimondi/special-garbanzo/releases/download/1.0/special-garbanzo.tar.gz'
-  version "1.0"
-  sha256 '82056a1af810cadbf6dbad2d3fcaff42617503b202c27513e96b71faa4d723e5'
+  url 'https://github.com/mattraimondi/special-garbanzo/releases/download/2.0/special-garbanzo.tar.gz'
+  version "2.0"
+  sha256 '2680a5416ff0dbb1b556b69d3a387704b2ce73e9385d459c9c2744f52eb38477'
 
   depends_on "python3"
 
   bottle :unneeded
 
   def install
-    bin.install "full", "dockspace", "status","git-status", "newwind","weather", "space", "icloud", "ip", "q", "lstrash"
+    bin.install "full", "dockspace", "git-status", "newwind","weather", "space", "quit", "ip", "q", "lstrash"
   end
 end
