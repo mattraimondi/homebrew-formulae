@@ -1,8 +1,8 @@
 class Calculator < Formula
   homepage 'https://github.com/mattraimondi/calculator'
-  url 'https://github.com/mattraimondi/calculator/releases/download/2.0/calc'
-  version "2.0"
-  sha256 '7a2b619d343f77fb70706a6eae6375beaef21ddf7b6e6ef30f0bd868a600081b'
+  url 'https://github.com/mattraimondi/calculator/releases/download/2.1/calc'
+  version "2.1"
+  sha256 'ebdeaaca5cfaf065f1aa4c516874f57229297bae061230d71fdf94faf40a7e19'
 
   depends_on "python3"
 

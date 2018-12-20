@@ -1,8 +1,8 @@
 class MacosVolumeCommand < Formula
   homepage 'https://github.com/mattraimondi/macOS-Volume-Command'
-  url 'https://github.com/mattraimondi/macOS-Volume-Command/releases/download/4.0/volume'
-  version "4.0"
-  sha256 'dc31036916dd49f6c47e9b4e913b2635b4e6c8dd1fe6b26dc0695526b139be50'
+  url 'https://github.com/mattraimondi/macOS-Volume-Command/releases/download/4.1/volume'
+  version "4.1"
+  sha256 'e38ec160f5de796e08d2b9a9c125d3d686ef4746348a0dcce633a6bcb27dee32'
 
   depends_on "python3"
 
