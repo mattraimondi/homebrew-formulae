@@ -2,7 +2,7 @@ class CMultiTool < Formula
   homepage 'https://github.com/mattraimondi/c-multi-tool'
   url 'https://github.com/mattraimondi/c-multi-tool/archive/v1.0.0.zip'
   version "1.0.0"
-  sha256 '2acf4286e1c00559835382d82e8db9e11f585ac0071e9c1cdbaf1ac274f41d7e'
+  sha256 'eea95ae35b6329c13cabda69c214afe0b33d1853d1d1fedd1ece8f3df2112d88'
 
   bottle :unneeded
 
