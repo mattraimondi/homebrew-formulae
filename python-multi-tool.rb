@@ -1,8 +1,9 @@
 class PythonMultiTool < Formula
+  desc 'A multiple-usage script that combines most of my public python tools into an easy to manage, easy to use solution.'
   homepage 'https://github.com/mattraimondi/python-multi-tool'
-  url 'https://github.com/mattraimondi/python-multi-tool/archive/v1.1.0.zip'
-  version "1.1.0"
-  sha256 '08083a28222ecaee3f09a7635a6d2e9eda786f0a7cdcac093e7e11a1de868377'
+  url 'https://github.com/mattraimondi/python-multi-tool/archive/v1.1.1.zip'
+  version "1.1.1"
+  sha256 '53b3f358bb1b6602fff184f24ad15d0bb5a2dd6693aad0152a10e8f85ce86bb0'
 
   depends_on "python3"
 
@@ -10,7 +11,9 @@ class PythonMultiTool < Formula
 
   def install
     system "cp", "python-multi-tool.py", "python-multi-tool"
-    system "chmod", "755", "python-multi-tool"
-    bin.install "python-multi-tool"
+    system "cp", "python-multi-tool.py", "pmt"
+    system "cp", "python-multi-tool.1", "pmt.1"
+    bin.install "python-multi-tool", "pmt"
+    man1.install "python-multi-tool.1", "pmt.1"
   end
 end
