@@ -1,9 +1,9 @@
 class PythonMultiTool < Formula
   desc 'A multiple-usage script that combines most of my public python tools into an easy to manage, easy to use solution.'
   homepage 'https://github.com/mattraimondi/python-multi-tool'
-  url 'https://github.com/mattraimondi/python-multi-tool/archive/v1.1.1.zip'
-  version "1.1.1"
-  sha256 '53b3f358bb1b6602fff184f24ad15d0bb5a2dd6693aad0152a10e8f85ce86bb0'
+  url 'https://github.com/mattraimondi/python-multi-tool/archive/v2.0.0.zip'
+  version "2.0.0"
+  sha256 'bb37d141b80e9ac7489b066fd9a2d267b418399c0f769f263d8872402e6b3f64'
 
   depends_on "python3"
 
